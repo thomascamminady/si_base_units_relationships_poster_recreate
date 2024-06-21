@@ -1,13 +1,8 @@
-Find this repository on [Github](https://github.com/thomascamminady/si_base_units_relationships_poster_recreate) or check out the [documentation](https://thomascamminady.github.io/si_base_units_relationships_poster_recreate).
+# SI Base Units Relationships Poster
 
+Recreated from the [original poster](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1247.pdf). Credit: NIST.
 
-## Development
-
-Set up the full project by running `make`.
-
-## Documentation
-Go to `Settings->Pages` and set `Source` (under `Build and deployment`) to `Github Actions`.
-
+![Units](notebooks/chart.png)
 
 ## Credits
 
