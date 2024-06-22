@@ -1,4 +1,4 @@
-is_base_unit,unit_name,unit_symbol,description,base_units_composite,color,mult_depencendy,divide_dependency,row,column
+is_base_unit,unit_name,unit_symbol,description,base_units_composite,color,mult_dependency,divide_dependency,row,column
 true,second,s,"","",gold,"","",0,0
 true,meter,m,"","",orange,"","",0,1
 true,kilogram,kg,"","",red,"","",0,2
@@ -6,18 +6,18 @@ true,ampere,A,"","",green,"","",0,3
 true,kelvin,K,"","",blue,"","",0,4
 true,mol,mol,"","",pink,"","",0,5
 true,candela,cd,"","",purple,"","",0,6
-false,joule,J,"ENERGY, WORK,\nAMOUNT OF HEAT","(N⋅m)",gray,"newton,meter","",1,1
-false,newton,N,"FORCE","(kg⋅m/s²)",gray,"kilogram,meter","second,second",1,2
-false,coulomb,C,"ELECTRIC\nCHARGE","(A⋅s)",gray,"ampere,second","",1,3
-false,degree\nCelcius,°C,"CELSIUS\nTEMPERATURE","(K)",gray,"kelvin","",1,4
+false,joule,J,"ENERGY, WORK,\nAMOUNT OF HEAT","(N*m)",gray,"newton,meter","",1,1
+false,newton,N,"FORCE","(kg*m/s²)",gray,"kilogram,meter","second,second",1,2
+false,coulomb,C,"ELECTRIC\nCHARGE","(A*s)",gray,"ampere,second","",1,3
+false,deg. Celsius,°C,"CELSIUS\nTEMPERATURE","(K)",gray,"kelvin","",1,4
 false,katal,kat,"CATALYTIC\nACTIVITY","(mol/s)",gray,"mol","second",1,5
 false,lux,lx,"ILLUMINANCE","(lm/m²)",gray,"lumen","meter,meter",1,6
 false,watt,W,"POWER, HEAT,\nFLOW RATE","(J/s)",gray,"joule","second",2,1
 false,pascal,Pa,"PRESSURE,\nSTRESS","(N/m²)",gray,"newton","meter,meter",2,2
 false,volt,V,"VOLTAGE,\nELECTROMOTIVE\nFORCE","(W/A)",gray,"watt","ampere",2,3
-false,weber,Wb,"MAGNETIC FLUX","(V⋅s)",gray,"volt","second",2,4
+false,weber,Wb,"MAGNETIC FLUX","(V*s)",gray,"volt","second",2,4
 false,tesla,T,"MAGNETIC FLUX\nDENSITY","(Wb/m²)",gray,"weber","meter,meter",2,5
-false,lumen,lm,"LUMINOUS FLUX","(cd⋅sr)",gray,"candela","steradian",2,6
+false,lumen,lm,"LUMINOUS FLUX","(cd*sr)",gray,"candela","steradian",2,6
 false,hertz,Hz,"FREQUENCY","",gray,"","second",3,0
 false,becquerel,Bq,"ACTIVITY\n(OF A RADIONUCLIDE)",1/s,gray,"","second",3,1
 false,gray,Gy,"ABSORBED\nDOSE","(J/kg)",gray,"joule","kilogram",3,2
